@@ -11,17 +11,17 @@ app.get('/', function (req, res) {
 
 app.get('/article-one',function(req,res)
 {
-  res.send("Article one will be served here and wait ");  
+  res.send('Article one will be served here and wait ');  
 });
 
 app.get('/article-two',function(req,res)
 {
-  res.send("Article two will be served here and wait ");  
+  res.send('Article two will be served here and wait ');  
 });
 
 app.get('/article-three',function(req,res)
 {
-  res.send("Article three will be served here and wait ");  
+  res.send('Article three will be served here and wait ');  
 });
 
 app.get('/ui/style.css', function (req, res) {
